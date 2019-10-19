@@ -68,7 +68,7 @@ void Level::parseLevel() {
 
 				break;
 			case 'Z':
-				//meta
+				zombiesPosition.push_back(glm::vec2(x * TILE_WIDTH, y * TILE_WIDTH));
 				break;
 			case '.':
 				freeSpaces.push_back(glm::vec2(x*TILE_WIDTH, y* TILE_WIDTH));

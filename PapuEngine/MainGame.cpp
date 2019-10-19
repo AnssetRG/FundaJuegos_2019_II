@@ -14,6 +14,7 @@ void MainGame::run() {
 }
 
 void MainGame::init() {
+	cout << "Iniciar" << endl;
 	Papu::init();
 	_window.create("Ella se fue :'v", _witdh, _height, 0);
 	initLevel();
@@ -28,6 +29,11 @@ void MainGame::initLevel(){
 		levels[currentLevel]->getPlayerPosition(),
 		&_inputManager,
 		"Textures/circle.png");
+	for each (glm::vec2 pos in levels[currentLevel]->getZombiesPosition())
+	{
+		zombies.push_back(new Zombie());
+		zombies.back()->init(pos, "Textures/Paper_Mario_.png");
+	}
 	_spriteBacth.init();
 }
 
@@ -60,6 +66,9 @@ void MainGame::draw() {
 	_spriteBacth.begin();
 	levels[currentLevel]->draw();
 	player->draw(_spriteBacth);
+	for (auto& zombie_object : zombies) {
+		zombie_object->draw(_spriteBacth);
+	}
 	for (auto& sprite_object : _sprites) {
 		sprite_object->draw(_spriteBacth);
 	}

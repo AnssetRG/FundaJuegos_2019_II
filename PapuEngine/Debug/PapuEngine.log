@@ -1,8 +1,6 @@
-﻿  main.cpp
-  MainGame.cpp
-C:\Users\Ansset Rojas G\Desktop\UPC\Ciclo VII\Fundamentos de Juegos\Yip\PapuEngine\MainGame.cpp(88,61): warning C4244: 'argumento': conversión de 'Sint32' a 'float'; posible pérdida de datos
-C:\Users\Ansset Rojas G\Desktop\UPC\Ciclo VII\Fundamentos de Juegos\Yip\PapuEngine\MainGame.cpp(88,46): warning C4244: 'argumento': conversión de 'Sint32' a 'float'; posible pérdida de datos
-C:\Users\Ansset Rojas G\Desktop\UPC\Ciclo VII\Fundamentos de Juegos\Yip\PapuEngine\MainGame.cpp(188,25): warning C4244: '=': conversión de 'double' a 'int'; posible pérdida de datos
-  Generando código...
-C:\Users\Ansset Rojas G\Desktop\UPC\Ciclo VII\Fundamentos de Juegos\Yip\PapuEngine\MainGame.cpp(189,27): warning C4244: '=': conversión de 'double' a 'int'; posible pérdida de datos
-  PapuEngine.vcxproj -> C:\Users\Ansset Rojas G\Desktop\UPC\Ciclo VII\Fundamentos de Juegos\Yip\Debug\PapuEngine.exe
+﻿  MainGame.cpp
+C:\Users\Ansset Rojas G\Desktop\UPC\Ciclo VII\Fundamentos de Juegos\Trabajo\PapuEngine\MainGame.cpp(97,61): warning C4244: 'argumento': conversión de 'Sint32' a 'float'; posible pérdida de datos
+C:\Users\Ansset Rojas G\Desktop\UPC\Ciclo VII\Fundamentos de Juegos\Trabajo\PapuEngine\MainGame.cpp(97,46): warning C4244: 'argumento': conversión de 'Sint32' a 'float'; posible pérdida de datos
+C:\Users\Ansset Rojas G\Desktop\UPC\Ciclo VII\Fundamentos de Juegos\Trabajo\PapuEngine\MainGame.cpp(197,25): warning C4244: '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\Ansset Rojas G\Desktop\UPC\Ciclo VII\Fundamentos de Juegos\Trabajo\PapuEngine\MainGame.cpp(198,27): warning C4244: '=': conversión de 'double' a 'int'; posible pérdida de datos
+  PapuEngine.vcxproj -> C:\Users\Ansset Rojas G\Desktop\UPC\Ciclo VII\Fundamentos de Juegos\Trabajo\Debug\PapuEngine.exe

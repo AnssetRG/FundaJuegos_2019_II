@@ -11,6 +11,7 @@
 #include "InputManager.h"
 #include "Player.h"
 #include "Human.h"
+#include "Zombie.h"
 
 enum class GameState
 {
@@ -37,6 +38,7 @@ private:
 	void initLevel();
 	Player* player;
 	vector<Human*> humans;
+	vector<Zombie*> zombies;
 
 public:
 	MainGame();
